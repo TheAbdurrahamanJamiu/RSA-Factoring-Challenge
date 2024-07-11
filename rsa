@@ -14,5 +14,5 @@ with open(argv[1]) as f:
                 for j in range(3, factors, 2):
                     if factor % j == 0 or j == 0:
                         break 
-                    print("{}*{}".format())
+                    print("{}*{}".format(factor, i))
                     break
